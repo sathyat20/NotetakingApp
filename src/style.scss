@@ -1,0 +1,149 @@
+body, html {
+    font-family: "Raleway", sans-serif;
+    background: #fff59b;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }  
+
+  .note {
+    width: auto;
+    min-width: 35vh;
+    margin: 25px;
+    min-height: 35vh;
+    height: auto;
+    word-wrap: break-word;
+    background-color: #ffc391;
+    position: absolute;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px -8px rgb(0 0 0 / 70%);
+  }
+
+.noteTitle {
+    font-family: fantasy;
+    padding-top: 10px;
+  }
+
+#input-bar{
+  padding-top: 10px;
+}
+
+#add-note {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+#button {
+    background-color: #fff59b;
+    border: none;
+    color: #663600;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 15%;
+    font-family: "papyrus";
+  }
+
+#button:after {
+    /* content: '»'; */
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -40px;
+    transition: 0.5s;
+}
+
+#button:hover {
+  background-color: #ffc391
+}
+
+#input {
+    border: none;
+    display: inline-block;
+    padding: 8px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 50%;
+    font-family: "Raleway";
+  }
+
+.noteBody {
+    align-self: flex-start;
+    margin: 4px;
+  }
+  
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin: 4px;
+    text-align: center;
+  }
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bodysection {
+  min-height: 35vh;
+  height: auto;
+}
+
+.noteTitle {
+  text-align: center;
+  align-items: center;
+}
+
+.Hey {
+  color: #ffffff;
+  background-color: #663600;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  padding: 5px 7px;
+  box-shadow: 0 10px 20px -8px rgb(0 0 0 / 70%);
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  background-color: #663600;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.landing{
+  text-align: center;
+  padding: 30px;
+  color: #fff59b;
+  background-color: #663600;
+  font-size: 40px;
+  font-family: "papyrus";
+}
+
+.textbox {
+  padding-right: 100px;
+  padding-bottom: 200px;
+  background-color: #663600;
+  color:#fff59b;
+  font-family: "Raleway";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display:inline;
+  word-wrap: break-word;
+}
+
